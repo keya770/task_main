@@ -22,7 +22,7 @@ if (isset($_POST['role']) && isset($_POST['user_id'])) {
     }
     $stmt->close();
 } else {
-    echo 'Invalid input'; 
+    // echo 'Invalid input'; 
 }
 }
 
